@@ -1,0 +1,29 @@
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.cs553.collaborativestudy.MainFragment">
+
+     <!--   <Button
+            android:id="@+id/createPost"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Post"
+            android:textSize="20sp"
+            android:layout_marginTop="53dp"
+            android:layout_centerHorizontal="true" />-->
+
+
+
+        <ListView
+            android:id="@+id/myListView"
+            android:layout_marginTop="53dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/createPost"
+            />
+
+
+
+    </RelativeLayout>
